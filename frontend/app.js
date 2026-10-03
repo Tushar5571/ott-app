@@ -1,5 +1,5 @@
 // After you host the backend, put its address here (keep /api at the end)
-const LIVE_API = 'https://YOUR-BACKEND.onrender.com/api';
+const LIVE_API = 'https://ott-app-1-s232.onrender.com/api';
 const API = ['localhost', '127.0.0.1'].includes(location.hostname) ? 'http://localhost:5000/api' : LIVE_API;
 const IMG = 'https://image.tmdb.org/t/p/';
 const REGION = 'IN'; // country used for "Where to watch"
